@@ -5,6 +5,7 @@
 
 h1 {
     text-align: center;
+    font-size: 175%;
 }
 
 body {
@@ -12,6 +13,7 @@ body {
 }
 
 .title {
+    font-size: 125%;
     font-weight: bold;
     font-size: larger;
     float: right;
