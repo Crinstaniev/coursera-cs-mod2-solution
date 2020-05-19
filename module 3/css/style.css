@@ -1,5 +1,5 @@
 #brand_text {
-    font-size: 1.2em;
+    font-size: 1.5em;
     color: white;
 }
 
@@ -27,6 +27,7 @@
 .collapsed_list {
     background-color: rgb(46, 46, 46);
     margin-bottom: 0;
+    margin-top: 0;
 }
 
 p {
@@ -39,4 +40,17 @@ p {
     background-color: rgb(214, 214, 214);
     padding: 20px;
     margin: 30px;
+}
+
+.Yejiao {
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.733);
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.wenzi {
+    margin-top: 35px;
+    margin-left: 0;
 }
