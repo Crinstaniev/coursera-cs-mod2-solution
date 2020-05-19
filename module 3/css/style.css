@@ -1,0 +1,42 @@
+#brand_text {
+    font-size: 1.2em;
+    color: white;
+}
+
+#collapse_button {
+    border: 1px solid white;
+}
+
+.collapsed_list > li {
+    color: white;
+    text-align: center;
+    list-style-type: none;
+    margin: 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.collapsed_list > li > a:hover {
+    text-decoration: none;
+}
+
+.collapsed_list > li > a:focus {
+    text-decoration: none !important;
+}
+
+.collapsed_list {
+    background-color: rgb(46, 46, 46);
+    margin-bottom: 0;
+}
+
+p {
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+
+.content_box {
+    background-color: rgb(214, 214, 214);
+    padding: 20px;
+    margin: 30px;
+}

@@ -1,12 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Test Page</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+    <script src="js/jquery-3.5.1.js"></script>
+    <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.collapse.js"></script>
+    <script src="js/transition.js"></script>
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
 </head>
+
 <body>
-    
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <div class="navbar-header pull-left">
+                    <a href="#" class="navbar-brand" id="brand_text">Food, LLC</a>
+                </div>
+                <button type="button" class="navbar-toggle collapsed visible-xs" data-toggle="collapse"
+                    data-target="#collapsed-options" aria-expanded="false" id="collapse_button">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <!-- collapsed menu -->
+            <div id="collapsed-options" class="collapse">
+                <ul class="navbar navbar-nav collapsed_list">
+                    <li id="option_1"><a href="#">Chicken</a></li>
+                    <li id="option_2"><a href="#">Beef</a></li>
+                    <li id="option_3"><a href="#">Sushi</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="page-header text-center">
+        <h1>Our Menu</h1>
+    </div>
+
+    <div class="container-fluid">
+        <div class="col-xs-12">
+            <div class="content_box">
+                <p class="content_title">
+                    Chicken
+                </p>
+                <article>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed libero quam. Morbi eget lectus et
+                    ante finibus posuere. Curabitur ac tortor non lectus condimentum facilisis sit amet pretium massa.
+                    Ut ac dictum nunc. Nunc vitae arcu sed nibh maximus finibus. Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit. Suspendisse et leo accumsan, cursus velit ac, vulputate ex. Cras sed euismod elit.
+                    Proin auctor erat ut ante accumsan efficitur. Donec placerat, tellus interdum porta sodales, elit mi
+                    molestie lacus, eget mattis ex massa et nibh.
+
+                    Nullam ac pharetra lacus. Nam sollicitudin sollicitudin pellentesque. Duis malesuada fringilla
+                    tellus a condimentum. Integer velit velit, elementum quis rhoncus in, eleifend ac enim. Nunc lectus
+                    sapien, malesuada consequat quam at, vehicula accumsan enim. Sed sed consequat erat. Praesent
+                    lobortis eros eu diam iaculis, sit amet rhoncus magna sollicitudin. Praesent facilisis tempor ligula
+                    non aliquam. Aliquam sollicitudin augue sed suscipit rutrum. Vestibulum ante ipsum primis in
+                    faucibus orci luctus et ultrices posuere cubilia curae; Praesent luctus, magna sed hendrerit
+                    feugiat, orci purus tincidunt nunc, sit amet tristique lacus enim ut urna.
+
+                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                    Integer accumsan blandit quam vel facilisis. Aliquam ut pulvinar orci, eget convallis nisi. Sed
+                    mollis, lacus nec pulvinar placerat, dui ligula dapibus ligula, nec feugiat orci augue in risus.
+                    Nunc elementum aliquet hendrerit. Curabitur tincidunt hendrerit neque, non porta metus accumsan at.
+                    Morbi mollis semper tempus. Fusce egestas dolor neque, sed vestibulum turpis feugiat vitae. Mauris
+                    tempus dictum odio finibus vestibulum.
+
+                    Etiam placerat posuere felis tincidunt maximus. Ut varius luctus nisi, eu iaculis neque egestas
+                    fringilla. Praesent in rutrum magna. Class aptent taciti sociosqu ad litora torquent per conubia
+                    nostra, per inceptos himenaeos. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam
+                    id condimentum orci, non consequat nulla. Sed ac semper ipsum, vitae commodo dolor. Nunc vehicula
+                    luctus efficitur. Aenean vulputate elit urna, id tristique felis porta ut. Nunc finibus dapibus
+                    lorem sed faucibus. In fermentum enim et ante faucibus, in sollicitudin nulla faucibus.
+
+                    Etiam facilisis erat at arcu pulvinar, eu hendrerit quam aliquet. Aliquam luctus urna in consequat
+                    gravida. Mauris mollis turpis imperdiet, vehicula nisl ut, sollicitudin diam. Nullam posuere purus
+                    at sapien ullamcorper, eu pharetra elit ultricies. Pellentesque nec lobortis risus, eget eleifend
+                    est. Aenean lobortis nibh ac tortor pretium iaculis. Donec accumsan, enim eu varius consectetur,
+                    risus libero ultricies leo, eu rhoncus purus arcu eget diam.
+                </article>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
